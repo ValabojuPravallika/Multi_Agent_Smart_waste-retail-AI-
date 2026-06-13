@@ -2,14 +2,10 @@
 
 **Multi-Agent AI System for Food Waste Reduction in Convenience Retail**
 
-> Woosong University · AI Venture Project · 2026
+AI Venture Project · 2026
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://smartwaste-retail-ai.streamlit.app)
 
----
-
-## 🧠 Overview
-
+## ABSTRACT
 SmartWaste Retail AI is a full-stack, multi-agent AI system that helps convenience store managers reduce food waste by autonomously observing inventory, predicting demand using machine learning, negotiating pricing actions through a closed feedback loop, and explaining decisions in plain language.
 
 The system is built on a **9-stage agent pipeline** trained on the [Kaggle Retail Store Inventory dataset](https://www.kaggle.com/) (73,100 rows) and deployed on Streamlit Cloud.
@@ -18,7 +14,7 @@ The system is built on a **9-stage agent pipeline** trained on the [Kaggle Retai
 
 ## 🚀 Live Demo
 
-🔗 **[smartwaste-retail-ai.streamlit.app](https://smartwaste-retail-ai.streamlit.app)**
+🔗 **[smartwaste-retail-ai.streamlit.app](https://smartwaste-retai.streamlit.app/)**
 
 ---
 
@@ -194,7 +190,3 @@ ANTHROPIC_API_KEY = "sk-ant-..."
 4. Anthropic — Claude API Documentation: https://docs.claude.com
 
 ---
-
-## 👨‍💻 Author
-
-**Woosong University · AI Venture Project · 2026**
