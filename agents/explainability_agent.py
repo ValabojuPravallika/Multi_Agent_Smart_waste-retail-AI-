@@ -1,5 +1,6 @@
 import json
 import urllib.request
+import os
 
 
 class ExplainabilityAgent:
@@ -99,7 +100,7 @@ markdown headers."""
 
             req = urllib.request.Request(
                 self.API_URL, data=body,
-                headers={"Content-Type": "application/json"},
+                headers={"Content-Type": "application/json","x-api-key": os.environ.get("ANTHROPIC_API_KEY", ""),"anthropic-version": "2023-06-01",},
                 method="POST",
             )
             with urllib.request.urlopen(req, timeout=15) as resp:
