@@ -148,7 +148,7 @@ Post-negotiation: Risk=HIGH (escalated discounts active)
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/smartwaste-retail-ai.git
+git clone https://github.com/ValabojuPravallika/Multi_Agent_Smart_waste-retail-AI-.git
 cd smartwaste-retail-ai
 
 # 2. Install dependencies
