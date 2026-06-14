@@ -1,6 +1,6 @@
 """
 SmartWaste Retail AI — Full-Stack Multi-Agent Food Waste Reduction Platform
-Woosong University · AI Venture Project · 2025/2026
+Woosong University · AI Venture Project · 2026
 
 UPGRADE NOTES (Novelty additions):
 1. Recommendation Agent now performs a closed-loop negotiation with the
