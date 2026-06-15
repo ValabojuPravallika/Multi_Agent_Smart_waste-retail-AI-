@@ -32,7 +32,7 @@ The system is built on a **9-stage agent pipeline** trained on the [Kaggle Retai
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 Inventory Input (Streamlit UI)         Kaggle Dataset (73,100 rows)
@@ -164,7 +164,7 @@ streamlit run app.py
 
 ---
 
-## 🔑 LLM Configuration (Optional)
+## LLM Configuration (Optional)
 
 The Explainability Agent calls the Claude API to generate a natural-language executive briefing. If no API key is configured, the system automatically falls back to a rule-based summary — the app is fully functional either way.
 
